@@ -1,13 +1,87 @@
 <!DOCTYPE html>
-<html>
- <head> </head>
-   <body>
- 
-       <h1> HELLO WORLD </h1>
-  
-      <script>
-          let d= new Date ();
-           document.body.innerHTML= "<h1> Today´s Date is" + d + "</h1>";
-      </script>
-   </body>
+<html lang="en">
+<head>
+	<script src="scripts/main.js"></script>
+	<meta name="keywords" content="soccer, what is soccer, things about soccer"/>
+	<meta http-equiv=”Content-Language” content=”en”/>
+	<meta name=”distribution” content=”global”/>
+	<title>GAC Assessment</title>
+	<meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="fondo.gif">
+	<header class="pageHeader">
+	<h1> Soccer </h1>
+		<nav><ul>
+			<li class="active"><a href="index.html">Home</a></li>
+			<li><a href="purpose.html">Purpose</a></li>
+			<li><a href="rules.html">Rules</a></li>
+			<li><a href="history.html">History</a></li>
+			<li><a href="worldcup.html">World Cup</a></li>
+			<li><a href="champions.html">Champions League</a></li>
+			<li><a href="europa.html">Europa League</a></li>
+			<li><a href="topteams.html">Top Teams</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul></nav>
+	</header>		
+	<div class="Main">
+		<div class="content">	
+		<article class="Top">	
+			<header>
+				<h2>What is soccer?</h2>
+			</header>
+			<content>
+				<p>The sport of soccer (called football in most of the world) is considered to be the world's most popular sport. In soccer there are two teams of eleven players. Soccer is played on a large grass field with a goal at each end. The object of the game is to get the soccer ball into the opposing team's goal. The key to soccer is that, with the exception of the goalie, players cannot touch the ball with their hands, they can only kick, knee, or head the ball to advance it or score a goal.</p>
+        	</content>
+		</article>
+		<article class="Bottom">	
+				<header>
+		<article class="Bottom">
+				<h2>Actual Top players</h2>
+			</header>
+			<content>
+			<img src="bicho.png" width="235" height="320">
+			<img src="messi.png" width="240" height="320">
+			<img src="neymar.png" width="245" height="320">
+        	</content>
+			<footer>
+				<h5>"Your love makes me strong, your hate makes me unstoppable." Cristiano Ronaldo</h5>
+			</footer>
+				
+		</article>
+		
+	</div>
+			
+		<aside class="top-sidebar">
+			<h2>Navigation</h2>
+			<ul class="navigation">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="purpose.html">Purpose</a></li>
+			<li><a href="rules.html">Rules</a></li>
+			<li><a href="history.html">History</a></li>
+			<li><a href="worldcup.html">World Cup</a></li>
+			<li><a href="champions.html">Champions League</a></li>
+			<li><a href="europa.html">Europa League</a></li>
+			<li><a href="topteams.html">Top Teams</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</aside>
+			<button onclick="myFunction()">Click Me!</button>
+	<script>
+function myFunction() {
+  alert("Welcome! You are about to know a lot about soccer! We hope you enjoy it!");
+}
+</script>
+		<aside class="bottom-sidebar">
+			<div class="featured">
+			<img src="images/image1.jpg" id="myImage" height="220px" width="180px" onclick="newImage()">
+			<h3> Click to change player</h3>
+			</div>
+		</aside>
+	</div>
+	
+	<footer class="pageFooter">
+		<p>Copyright © 2021  Alejandro García Medina & Allan Jiménez Rocha</p>
+	</footer>
+</body>
 </html>
